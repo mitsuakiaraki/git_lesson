@@ -1,0 +1,7 @@
+git config --global color.ui true
+git config alias.co checkout
+git config alias.br branch
+git config alias.ci commit
+git config alias.st status
+git config alias.df diff
+git config alias.graph 'log --graph --date-order -C -M --pretty=format:"<%h> %ad [%an] %Cgreen%d%Creset %s" --all --date=short'
